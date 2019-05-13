@@ -17,5 +17,10 @@ namespace XamarinHelloWorld
         {
             InitializeComponent();
         }
+
+        void Button_Clicked(Object sender, EventArgs e)
+        {
+            greetingLabel.Text = $"Welcome {nameEntry.Text}";
+        }
     }
 }
